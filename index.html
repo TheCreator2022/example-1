@@ -1,0 +1,80 @@
+<html lang="en">
+	<head>
+		<title>Quick Edit HTML5: Example 1</title>
+		<!-- CSS FIles -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Meta Data Settings -->
+		<meta charset="UTF-8">
+		</head>
+		<body>
+			<!-- Title Message -->
+			<h1>Example 1</h1>
+			<!-- 3 Equaltions -->
+			<table>
+				<tr>
+					<td class="equaltion">l<sub>1</sub> = <span id="l1"></span></td>
+				</tr>
+				<tr>
+					<td class="equaltion">a = <span id="a">0</span></tf>
+				</tr>
+				<tr>
+					<td class="equaltion">c = <span id="c">0</span></tf>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th>Result</th>
+					<th>Calcuted</th>
+					<th>Source</th>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="attach1(1)">Up</button>
+					</td>
+					<td>
+						attach1(1)
+					</td>
+					<td>
+						&lt;button onclick="attach1(1)"&gt;Up&lt;/button&gt;
+					</td>
+				<tr>
+				<tr>
+					<td>
+						<button onclick="attach1(-1)">Down</button>
+					</td>
+					<td>
+						attach1(-1)
+					</td>
+					<td>
+						&lt;button onclick="attach1(-1)"&gt;Up&lt;/button&gt;
+					</td>
+				<tr>
+				<tr>
+					<td>
+						<button onclick="attach2()">Click Me 1</button>
+					</td>
+					<td>
+						attach2()
+					</td>
+					<td>
+						&lt;button onclick="attach2()"&gt;Click Me 1&lt;/button&gt;
+					</td>
+				<tr>
+				<tr>
+					<td>
+						<button onclick="attach3()">Click Me 2</button>
+					</td>
+					<td>
+						attach3()
+					</td>
+					<td>
+						&lt;button onclick="attach3()"&gt;Click Me 2&lt;/button&gt;
+					</td>
+				<tr>
+			</table>
+			<button onclick="updateResult(result())">Update Result</button>
+			<h2 id="result"></h2>
+			<!-- JS Files -->
+			<script src="script.js"></script>
+			</body>
+	</html>
